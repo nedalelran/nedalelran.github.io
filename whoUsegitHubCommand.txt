@@ -1,0 +1,12 @@
+hizufügen von neues Datei Datei in Master
+z.B. whoUsegitHubCommand.txt
+cmd command:
+e:
+git brach --zeige welche Repository
+git status -- hier wird geprüft welche neues Files, die nicht im repority hinzugefügt sind
+git add FielName -- hinzufügen das Datei zum Branch Master
+git commit -m "adding filename"
+git push --uploaden zum remote Repository
+-- holen geänderte Datei von Remote Repositoy zum lokalen Repository
+git pull -- abhoen
+
