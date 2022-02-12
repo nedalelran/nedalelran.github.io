@@ -1,0 +1,56 @@
+
+*{
+    list-style-type: none; /* löschen */
+}
+
+
+body {
+  
+    font-family: Helvetica, sans-serif;
+  }
+
+.ul-menu{
+
+    color: white;
+    background-color:chocolate;
+    overflow: hidden; /* nicht überlappen*/
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+    
+.li-menu{
+    float: left;   
+    font-size: 25px;
+    color: white;
+
+}
+
+.a-menu {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block; /* zeige als Block*/
+    padding: 17px; /* Abstand zwischen Menupünkten */
+    padding-top: 0pt;
+
+
+    
+}
+
+.li-menu a:hover{
+    color: chocolate;
+    background-color: white;
+}
+
+.ul-menu title-left{
+    padding-right:10px;
+    color: white;
+}
+
+.title-menu {
+    font-size: 30px; 
+    color: white;
+    display: inline;
+}
